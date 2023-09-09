@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fauna+One&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Fauna One', serif;
+    background: #292929;
+  }
+.text-center {
+    text-align: center;
+    color: aliceblue;
+  }
+  /* Light Blue: #ADD8E6
+Sea Green: #2E8B57
+White: #FFFFFF */
+.container { 
+    background-color: #292929;
+    margin: auto;  
+    width: 300px;
+    border: 5px solid rgb(248, 246, 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .input {
+    font-size: 22px;
+    margin-top: 15px;
+    padding: 15px 0px;
+    border: 2px solid ;
+    border-radius: 9px;
+}   
+.container .row {
+    margin: 9px 0;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.container .row .button {
+    font-size: 19px;
+    margin: 0 3px;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    border: 2px solid #111;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.container .row .button:hover{
+    transform: scale(1);
+    box-shadow: 0 0 20px #d35400;
+    color: white;
+    background-color: #111;
+}
